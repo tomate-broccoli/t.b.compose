@@ -11,3 +11,5 @@ const comp = (...fns)=>{
         return ctx
     }
 }
+
+export {comp as compose}
